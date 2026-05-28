@@ -1,0 +1,2 @@
+- 接入deepseek v4 pro模型想使用1m上下文长度，直接在模型名称后面填上[1m]  Claude code是这样使用的，但我的用的是open ai compatible，可以直接设置上下文长度，模型名称需要用官方的名称。
+- 

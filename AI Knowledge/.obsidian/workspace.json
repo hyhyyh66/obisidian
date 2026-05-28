@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2026.5/git.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -185,9 +185,15 @@
   },
   "active": "00b3926d6823576e",
   "lastOpenFiles": [
-    "2026.5/git.md",
-    "2026.5/2026.5.6.md",
     "2026.5/vscode配置conda环境.md",
+    "2026.5/git.md",
+    "2026.5/cline插件相关问题.md",
+    "2026.5/2026.5.6.md",
+    "cpp/C++ 学习手册.md",
+    "cpp/C++ 三小时进阶教程-Day2.md",
+    "cpp/C++ 三小时入门教程.md",
+    "个人c++总结（盲点）.md",
+    "cpp/计算机基础-两小时面试突击.md",
     "2026.5",
     "欢迎.md"
   ]
