@@ -271,13 +271,15 @@ void swap_c(int* a, int* b) {
 // 调用：swap_c(&x, &y);  ← 麻烦，要取地址
 
 // C++ 语言：用引用交换两个数
-void swap_cpp(int& a, int& b) {  // a 和 b 是实参的引用
+void swap_cpp(int& a, int& b) {  // a 和 b 是实参的引用  ^C++YINYONG
     int temp = a;
     a = b;
     b = temp;
 }
 // 调用：swap_cpp(x, y);  ← 简洁！直接传变量名
 ```
+
+^71d48a
 
 ### 💡 引用的三个核心特点
 

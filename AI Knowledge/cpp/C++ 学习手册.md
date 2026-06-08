@@ -454,7 +454,7 @@ cout << "数组长度: " << len << endl;  // 5
 
 ```cpp
 int arr[] = {4, 2, 8, 0, 5, 7, 1, 3, 9, 6};
-int len = sizeof(arr) / sizeof(arr[0]);
+int len = sizeof(arr) / sizeof(arr[0]); ^DOUBT1
 
 // 冒泡排序
 for (int i = 0; i < len - 1; i++) {          // 外层：轮数
@@ -467,6 +467,8 @@ for (int i = 0; i < len - 1; i++) {          // 外层：轮数
     }
 }
 ```
+
+^b76695
 
 ### 5.3 二维数组
 
@@ -516,7 +518,7 @@ int main() {
 ### 6.2 值传递
 
 ```cpp
-// C++ 默认是值传递（传的是副本）
+// C++ 默认是值传递（传的是副本）^C++_ZHICHUANDI
 void swap(int a, int b) {
     int temp = a;
     a = b;
@@ -531,6 +533,8 @@ int main() {
     return 0;
 }
 ```
+
+^a7b776
 
 ### 6.3 函数的声明
 
